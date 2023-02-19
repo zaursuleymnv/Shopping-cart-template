@@ -1,10 +1,11 @@
-// let basket;
+let basket;
 
 window.addEventListener('load', () => {
     basketData = getBasket()
     changeHeaderCountText()
     fillCardPage()
 })
+
 
 // events
 let productBasket = document.querySelectorAll('.product .add-to-basket')
